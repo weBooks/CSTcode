@@ -1,3 +1,7 @@
+ul {
+    margin: 0;
+}
+
 .container {
 	width: 100%;
 	line-height: 1vw;
@@ -34,15 +38,30 @@
 	text-align: center;
 }
 
-.menu div div {
+.menu div ul, .menu div div {
 	color: white;
 	font-size: 18px;
 	font-weight: bold;
-	padding: 25px 1.2vw 30px 1.2vw;
+	padding: 30px 1.2vw 30px 1.2vw;
 	height: 3vw;
 }
 
-.menu div div:hover {
+.menu div ul li {
+    display: none;
+}
+
+.menu div ul:hover > li {
+    display: block;
+    color: red;
+    padding: 18px;
+    background: #00CACF;
+}
+
+.menu div ul:hover > first {
+    margin-top: 20px;
+}
+
+.menu div ul:hover, .menu div div:hover {
 	background: #00CACF;
 }
 
@@ -82,3 +101,5 @@
 .none {
 	display: none;
 }
+
+
