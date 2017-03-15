@@ -1,0 +1,84 @@
+.container {
+	width: 100%;
+	line-height: 1vw;
+}
+
+.header {
+	background: white;
+}
+
+.header img {
+	height: 120px;
+	
+}
+
+.header div div {
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 20px;
+	color: grey;
+	padding: 25px 50px 15px 0;
+	text-align: center;
+}
+
+.header div div:hover {
+	color: #00ABB0;
+}
+
+.header div div:hover +  {
+	
+}
+
+.menu {
+	background: #00ABB0;
+	text-align: center;
+}
+
+.menu div div {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 25px 1.2vw 30px 1.2vw;
+	height: 3vw;
+}
+
+.menu div div:hover {
+	background: #00CACF;
+}
+
+.menu .ci {
+	background: #00CACF;	
+	margin: 0 10px 0 100px;
+}
+
+.menu .ci:hover {
+	color: darkblue;
+}
+
+.footer {
+	background: rgb(110, 110, 110);
+	text-align: center;
+}
+
+.footer div .title {
+	padding: 18px 0 0 0;
+	font-size: 16px;
+	color: #00D9BC;
+}
+
+.footer div li {
+	padding: 4px;
+	font-size: 16px;
+	color: white;
+	list-style-type: none; 
+}
+
+.fixed {
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+.none {
+	display: none;
+}
